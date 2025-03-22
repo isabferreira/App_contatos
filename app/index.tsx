@@ -58,6 +58,9 @@ export default function HomeScreen() {
               <Link href={{ pathname: "/editar/[id]", params: { id: item._id } }} style={styles.botaoEditar}>
                 <Text style={{ color: "white", marginTop: 5 }}>Editar</Text>
               </Link>
+              <Link href={{ pathname: "/detalhes/[id]", params: { id: item._id } }} style={styles.botaoEditar}>
+                <Text style={{ color: "white", marginTop: 5 }}>Detalhes</Text>
+              </Link>
             </View>
           </View>
         )}

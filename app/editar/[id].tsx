@@ -12,7 +12,7 @@ export default function EditarContato() {
       const carregarContato = async () => {
         try {
           const lista = await getContatos();
-          const encontrado = lista.find((c:Contato) => c._id === id);
+          const encontrado = lista.find((c) => c._id === id);
           if (encontrado) {
             const { _id, ...resto } = encontrado;
             setContato(resto);
