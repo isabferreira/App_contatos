@@ -2,7 +2,7 @@ import { useState } from "react";
 import { View, TextInput, Button, StyleSheet, Alert } from "react-native";
 import { addContato } from "../services/contatos";
 import { router } from "expo-router";
-import { styles } from "../app/index";
+import styles from "../estilos/main";
 
 export default function NovoContato() {
   const [nome, setNome] = useState("");

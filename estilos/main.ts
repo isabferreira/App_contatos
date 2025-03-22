@@ -9,6 +9,7 @@ export const styles = StyleSheet.create({
   nome: { fontWeight: "bold" },
   botaoAdicionar: { backgroundColor: "blue", padding: 10, marginTop: 20, borderRadius: 5, alignItems: "center" },
   textoBotao: { color: "white", fontSize: 16 },
+  botaoEditar: { backgroundColor: "blue", padding: 10, marginTop: 20, borderRadius: 5, alignItems: "center" },
   input:  { height: 40, borderColor: "gray", borderWidth: 1, marginBottom: 10, paddingLeft: 8 },
   text: { fontSize: 18, marginBottom: 10 },
 });
